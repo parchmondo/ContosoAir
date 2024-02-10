@@ -7,10 +7,11 @@ steps:
     inputs:
       command: 'custom'
       customcommand: 'install --production'
-      - script: |
+  - script: |
       npm install
       npm run build
       npm test
+      
     displayName: 'Run unit tests'
     continueOnError: true
   - task: PublishTestResults@2
@@ -38,4 +39,4 @@ steps:
       TargetFolder: $(build.artifactstagingdirectory)/Templates
   - task: PublishBuildArtifacts@1
     displayName: 'Publish Artifact: drop'
-    
+    #
