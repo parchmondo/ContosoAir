@@ -1,4 +1,4 @@
-# This project is retired, archived, and no longer supported. You are welcome to continue to use and fork the repository.
+[![Build Status](https://dev.azure.com/parchmondo/Test%20Project/_apis/build/status%2Fparchmondo.ContosoAir?branchName=master)](https://dev.azure.com/parchmondo/Test%20Project/_build/latest?definitionId=1&branchName=master)
 
 
 # Microsoft.Github CI Demo
