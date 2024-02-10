@@ -8,7 +8,7 @@ steps:
       command: 'custom'
       customcommand: 'install --production'
   - script: |
-      npm install
+      npm audit fix --force
       npm run build
       npm test
       
